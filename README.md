@@ -1,2 +1,0 @@
-# NamuKiuGi
-- Glow Your Tree!!

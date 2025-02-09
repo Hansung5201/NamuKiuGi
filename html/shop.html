@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>shop</title>
+  <link rel="stylesheet" href="../css/shop.css"/>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="logo">Store</div>
+    <div class="coin-display">
+      <span id="coinCount"></span>
+    </div>
+  </div>
+  <div id="shops"></div>
+
+  <!--디버깅용-->
+  <h2>디버깅용</h2>
+  <button onclick="localStorage.clear(); reloadPage();">리셋</button>
+  <button onclick="addCoin(1000);">돈 추가</button>
+
+
+  
+  <script src="../js/shop.js"></script>
+</body>
+</html>
